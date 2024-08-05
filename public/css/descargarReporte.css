@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.info strong {
+  font-weight: bold;
+}
+
+.fechas {
+  float: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007c83;
+  color: white;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.titulo{
+  text-align: center;
+}
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.contact-info, .useful-links, .attribution {
+  margin-bottom: 20px;
+}
+
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.useful-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.useful-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.useful-links a:hover {
+  text-decoration: underline;
+}
+
+.attribution a {
+  color: #333;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.parrafo-footer {
+  margin-bottom: 5px; /* Ajusta el margen inferior entre los párrafos */
+}
+
+.parrafo-footer:last-child {
+  margin-bottom: 0; /* Elimina el margen inferior del último párrafo */
+  /* padding-bottom: 0; */ /* O elimina el padding inferior del último párrafo */
+}
+
+
+  

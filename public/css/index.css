@@ -1,0 +1,69 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-rounded {
+    border-collapse: separate;
+    border-spacing: 0 2px; /* Añade 2px de separación vertical entre filas */
+    border-radius: 10px; /* Este valor controla la curvatura de los bordes */
+    overflow: hidden;
+    width: 100%; /* Ajusta el ancho de la tabla al 100% */
+}
+
+.table-rounded th {
+    padding: 15px 10px; /* Ajusta el espaciado interior de los encabezados */
+    text-align: center;
+    background-color: #007c83;
+    color: white;
+    font-weight: bold;
+}
+
+.table-rounded td {
+    padding: 3.5px; /* Ajusta el espaciado interior de las celdas de datos */
+    text-align: center;
+}
+
+.table-rounded tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+.table-rounded tbody tr:nth-child(odd) {
+    background-color: white; /* Color de fondo para filas impares */
+}
+
+.table-rounded tbody tr:hover {
+background-color: #cce6e8; /* Color de fondo cuando se pasa el cursor sobre la fila */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*background-color: #f9f9f9;*/
+    background-color: rgb(89, 204, 85);
+    padding: 7px 0;
+    text-align: center;
+}
+
+.container-footer {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.contact-info, .useful-links, .attribution {
+  margin-bottom: 20px;
+  color: #333; /* Color del texto en el footer */
+  font-family: Arial, sans-serif; /* Tipo de letra del texto */
+  font-size: 12px; /* Tamaño del texto en el footer */
+}
+
+.parrafo-footer {
+    margin-bottom: 5px; /* Ajusta el margen inferior entre los párrafos */
+}
+
+.parrafo-footer:last-child {
+    margin-bottom: 0; /* Elimina el margen inferior del último párrafo */
+    /* padding-bottom: 0; */ /* O elimina el padding inferior del último párrafo */
+  }
+

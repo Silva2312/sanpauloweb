@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ /Lab_SanPaulo_Web_v4/public/$1 [L]
+</IfModule>

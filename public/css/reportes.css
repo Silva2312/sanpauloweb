@@ -1,0 +1,56 @@
+/*.custom-table {
+    width: 140%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+    text-align: center;
+}
+
+.custom-th {
+    background-color: #007c83;
+    color: white;
+}
+
+.even-row {
+    background-color: #dcdcdc;
+}
+
+
+.odd-row {
+    background-color: transparent;
+}
+
+
+.custom-table tbody tr:hover {
+    background-color: #cce6e8;
+}*/
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(89, 204, 85);
+    padding: 7px 0;
+    text-align: center;
+}
+
+.container-footer {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.contact-info, .useful-links, .attribution {
+  margin-bottom: 20px;
+  color: #333; /* Color del texto en el footer */
+  font-family: Arial, sans-serif; /* Tipo de letra del texto */
+  font-size: 12px; /* Tamaño del texto en el footer */
+}
+
+.parrafo-footer {
+    margin-bottom: 5px; /* Ajusta el margen inferior entre los párrafos */
+}
+
+.parrafo-footer:last-child {
+    margin-bottom: 0; /* Elimina el margen inferior del último párrafo */
+    /* padding-bottom: 0; */ /* O elimina el padding inferior del último párrafo */
+  }
